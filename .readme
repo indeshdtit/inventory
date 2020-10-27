@@ -1,0 +1,9 @@
+How to run the project:
+
+1. Assuming your system already has Composer and NPM installed. If not, please refer to their websites for detailed information on installation.
+2. Clone the Github repo on your system
+3. Run "composer install"
+4. Run "npm install"
+5. Run "php artisan migrate" for Database migration (create database 'inventory_management'). You can also choose your own configs in .env file (Little knowledge on Laravel needed)
+6. Run "php artisan serve" for Backend (Laravel)
+7. Run "npm run watch" for Frontend (VueJs)
